@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+	xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+	xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet"
+	xmlns:html="http://www.w3.org/TR/REC-html40"
+	xmlns:o="urn:schemas-microsoft-com:office:office"
+	xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+	xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml"
+	xmlns:x="urn:schemas-microsoft-com:office:excel"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Styles>
+<Style ss:ID="Default">
+<Alignment ss:WrapText="1"/>
+</Style>
+<Style ss:ID="Heading">
+<Font ss:Bold="1" ss:Color="#ffffff" ss:Size="12"/>
+<Interior ss:Color="#000000" ss:Pattern="Solid"/>
+<Alignment ss:WrapText="1"/>
+</Style>
+</Styles>
