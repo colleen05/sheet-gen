@@ -9,6 +9,9 @@ use sheet_gen::{
     Workbook,
 };
 
+const COLOUR_SUCCESS: egui::Color32 = egui::Color32::from_rgb(48, 192, 48);
+const COLOUR_ERROR: egui::Color32 = egui::Color32::from_rgb(192, 48, 48);
+
 fn main() -> Result<(), eframe::Error> {
     // Initialise logger
     env_logger::init();
@@ -242,8 +245,8 @@ impl eframe::App for SheetgenApp {
                 });
                 if let Some(status) = self.export_status.clone() {
                     match status {
-                        Ok(s) => ui.label(s),
-                        Err(e) => ui.label(format!("Error! {}", e)),
+                        Ok(s) => ui.colored_label(COLOUR_SUCCESS, s),
+                        Err(e) => ui.colored_label(COLOUR_ERROR, format!("Error! {}", e)),
                     };
                 }
                 ui.add_space(4.0);
