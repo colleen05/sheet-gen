@@ -1,6 +1,6 @@
 # Spreadsheet Generator
 
-A command-line utility (with a GUI wrapper) for generating XLS-formatted spreadsheets from various sources.
+A tool for generating XLS-formatted spreadsheets from various sources, available as either a command-line utility or GUI application.
 
 This was made for a school project.
 
